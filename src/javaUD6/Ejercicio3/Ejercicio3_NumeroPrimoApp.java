@@ -3,7 +3,7 @@ package javaUD6.Ejercicio3;
 import java.util.Scanner;
 
 /**@author isabel Calzadilla
- * Ejercicio 2: UD6 - Arrays y métodos
+ * Ejercicio 3: UD6 - Arrays y métodos
  * **/
 public class Ejercicio3_NumeroPrimoApp {
 
