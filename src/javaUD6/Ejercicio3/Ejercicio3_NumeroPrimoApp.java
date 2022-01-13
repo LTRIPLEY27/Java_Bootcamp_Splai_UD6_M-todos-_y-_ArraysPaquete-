@@ -47,4 +47,5 @@ i m o y a que 25 es div i sible e n t r e 5, sin e mb a r g o 17 si es pr i mo.*
 	    return true; // SI NINGUNA CONDICION SE APLICA ES PRIMO
 	}
 	
+	
 }
