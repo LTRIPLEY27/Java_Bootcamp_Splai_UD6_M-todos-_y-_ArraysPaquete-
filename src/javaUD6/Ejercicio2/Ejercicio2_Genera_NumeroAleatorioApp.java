@@ -3,7 +3,7 @@ package javaUD6.Ejercicio2;
 import java.util.Scanner;
 
 /**@author isabel Calzadilla
- * Ejercicio 1: UD6 - Arrays y métodos
+ * Ejercicio 2: UD6 - Arrays y métodos
  * **/
 public class Ejercicio2_Genera_NumeroAleatorioApp {
 
