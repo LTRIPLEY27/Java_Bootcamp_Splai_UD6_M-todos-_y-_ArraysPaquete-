@@ -3,7 +3,7 @@ package javaUD6.Ejercicio12;
 import javax.swing.JOptionPane;
 
 /**@author isabel Calzadilla
- * Ejercicio 11: UD6 - Arrays y métodos
+ * Ejercicio 12: UD6 - Arrays y métodos
  * **/
 public class Ejercicio12_Array_NumerosFinalesApp {
 
