@@ -3,7 +3,7 @@ package javaUD6.Ejercicio10;
 import javax.swing.JOptionPane;
 
 /**@author isabel Calzadilla
- * Ejercicio 9: UD6 - Arrays y métodos
+ * Ejercicio 10: UD6 - Arrays y métodos
  * **/
 public class Ejercicio10_Array_busca_NumerosPrimosApp {
 
