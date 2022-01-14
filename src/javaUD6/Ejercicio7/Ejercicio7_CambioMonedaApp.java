@@ -38,7 +38,7 @@ y e n es es un 1*/
 			
 			int cantidad = Integer.parseInt(money);
 			
-			eligeMoneda(eleccion, cantidad);
+			eligeMoneda(eleccion, cantidad);// IMPERATIVO ANIDAR LOS MÉTDOS VOIDD PARA APROVECHAR EL ENCAPSULAMIENTO
 		}
 		
 		public static void eligeMoneda(String eleccion, int cantidad) {
