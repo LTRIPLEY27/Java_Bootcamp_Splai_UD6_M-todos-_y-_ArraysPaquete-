@@ -52,23 +52,23 @@ m
 	
 	public static boolean isPrime(int n) {// MÉTODO PARA VERIFICAR SI U NÚMERO ES O NO PRIMO
 	   
-	    if (n % 2 == 0) return false;
+	    if (n % 2 == 0) return false;//EVALUA SI ES PAR
 	  
-	    for(int i = 3; i * i <= n; i += 2) {
+	    for(int i = 3; i * i <= n; i += 2) {//EVALUA SI ES UN IMPAR
 	        if(n % i == 0)
 	            return false;
-	    }
+	    }//EN CASO DE QUE AMBAS CONDICIONES RETORNE FALSO, ERGO ES PRIMO PUES SOLO ES DIVISIBLE POR SI MISMO
 	    return true;
 	}
 	
 	public static void primoMayor(int [] arrayPrimos) {// MÉTODO PARA HALLAR EL NÚMERO MAYOR DEL ARRAY
-		int mayor = arrayPrimos[0];
+		int mayor = arrayPrimos[0];//VALOR PRIMERA POSICION DEL ARRAY A LA VARIABLE
 		for(int num : arrayPrimos) {
-			if(num > mayor) {
+			if(num > mayor) {// VERIFICACION CON LA VARIABLE Y UBICACION DEL MAYOR ELEMENTO
 				mayor = num;
 			}
 		}
 		
-		System.out.println("El número primo mayor es : " + mayor);
+		System.out.println("El número primo mayor es : " + mayor);//IMPRESIÓN DEL MAYYOR ELEMENTO
 	}
 }
